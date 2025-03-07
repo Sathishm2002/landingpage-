@@ -1,0 +1,40 @@
+.web{
+    padding: 5px;
+}
+.web-title{
+    margin-top: 40px;
+    text-align: center;
+}
+.web-sub{
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   text-align: center;
+   padding: 10px;
+  border-radius: 10px;
+}
+.web-sub button{
+    background-color: rgb(118, 174, 220);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.web-img{
+    display: flex;
+    margin: 100px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.firefox{
+    transform: translateY(20px);
+}
+.opera{
+    transform: translateY(40px);
+}
+@media screen and (max-width:700px) {
+    .web-img{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,61 @@
+.skill-title{
+    text-align: center;
+}
+.skill-para{
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.task li{
+    list-style: none;
+}
+.task p:hover{
+    cursor: pointer;
+}
+.over{
+    text-align: center;
+    align-items: center;
+    margin-top: 95px;
+    padding: 80px;
+}
+.over button{
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+}
+.skill-content{
+    display: flex;  
+    padding: 50px;
+}
+.heading{
+    padding: 5px;
+    margin: 1rem;
+}
+.heading .active{
+    box-shadow: red;
+}
+@media screen and (max-width:700px){
+    .skill-content{
+    display: flex;  
+    flex-direction: column;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+}
+.imag{
+    width: 400px;
+}
+.sss{
+    text-align: center;
+}
+.order{
+    border-bottom: 2px solid black ;
+}
+}
